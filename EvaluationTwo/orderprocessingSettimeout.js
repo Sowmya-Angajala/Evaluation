@@ -27,5 +27,5 @@ async function searchProduct(query){
     };
 }
     searchProduct("shirt").then(results=>{
-        console.log("search:",resluts)
+        console.log("search:",results)
     });
